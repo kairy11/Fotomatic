@@ -41,6 +41,10 @@ header {
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
+  z-index: 1;
+  height: 85px;
+
+  /*added z index so header can stay in front and added height*/
 }
 
 header .content {
@@ -51,6 +55,11 @@ header .content {
 
 header .logo {
   flex: 1;
+  color: #4a4a4a;
+  font-size: 1.5rem;
+  font-family: Roboto-mono-regular, sans-serif;
+  text-decoration: none;
+  /*added size font family and text decoration and color*/
 }
 
 header nav ul {
@@ -59,6 +68,8 @@ header nav ul {
 
 nav li {
   padding-left: 3.5rem;
+  list-style-type: none;
+  /*added list style type to get rid of the markers*/
 }
 
 nav a {
@@ -66,11 +77,14 @@ nav a {
   line-height: 1.6;
   font-size: 1rem;
   color: #4a4a4a;
+  font-family: roboto-regular, sans-serif;
+  text-decoration: none;
+  /*added font family and changed vertical align to look more appealing*/
 }
 
 header .icon {
   width: 1rem;
-  padding-left: .75rem;
+  padding-left: .25rem;
 }
 
 header .mobile {
