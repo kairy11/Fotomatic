@@ -25,7 +25,7 @@ html {
 }
 
 .image-container img {
-  display: block;
+  display: inline-flex;
 }
 
 @media only screen and (max-width: 760px) {
@@ -134,6 +134,7 @@ header .mobile {
   background-image: url(/resources/images/banner-landingpage.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: bottom; 
   /*adding background for signup section*/
 }
 
